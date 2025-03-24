@@ -1,3 +1,5 @@
+// Task1
+
 const payPerHour: number = 32;
 const worworkingDays: number = 14;
 const experienceСoefficients: number[] = [1, 1.1, 1.2, 1.3, 1.5,]; 
