@@ -19,10 +19,13 @@ function processData(value: string | number | boolean | number[]): string | numb
     switch (typeof value) {
         case "string":
             return value.toUpperCase();
+
         case "number":
             return value * value;
+
         case "boolean":
             return !value;
+            
         case "object": 
             if(value != null && value instanceof Array)
                 return value.length === 0 ? [] : value.map(num => num * num);
