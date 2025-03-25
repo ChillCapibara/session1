@@ -1,4 +1,5 @@
 "use strict";
+// Task1
 const payPerHour = 32;
 const worworkingDays = 14;
 const experienceСoefficients = [1, 1.1, 1.2, 1.3, 1.5,];
